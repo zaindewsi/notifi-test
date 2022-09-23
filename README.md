@@ -10,7 +10,9 @@ This browser extension uses the Notifi gql API to subscribe to new messages and 
 git clone git@github.com:zaindewsi/notifi-test.git
 cd notifi-test
 cp .env.example .env
-add the REACT_APP_JWT token
+```
+- add the REACT_APP_JWT token
+```
 npm install
 npm run build
 ```

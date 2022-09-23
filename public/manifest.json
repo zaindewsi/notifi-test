@@ -1,0 +1,25 @@
+{
+  "short_name": "Notifi Test",
+  "name": "Notifi Test",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["storage", "unlimitedStorage", "notifications"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "background": {
+    "page": "index.html"
+  },
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zain.dewsi@gmail.com"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.logo {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.button {
+  margin: 16px 0px 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  min-width: 64px;
+  padding: 10.5px 16px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background-color: rgb(234, 126, 104);
+  color: white;
+  font-weight: 700;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 22px;
+  background: -webkit-linear-gradient(
+    rgb(254, 121, 112) 11.91%,
+    rgb(254, 183, 118) 88.99%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(128, 130, 157);
+  margin: 0;
+  text-align: center;
+}

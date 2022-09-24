@@ -9,7 +9,7 @@ export const Subscsribe = () => {
     Browser.storage.local.get('isSubscribed').then(obj => {
       setIsSubscribed(obj.isSubscribed === 'true')
     })
-  }, [isSubscribed])
+  }, [])
 
   const handleClick = () => {
     setIsSubscribed(true)
